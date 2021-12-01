@@ -6,9 +6,9 @@
 	// just create some sample data ... normally provided by MVC
 	List<Student> data = new ArrayList<>();
 
-		data.add(new Student("Hritik","Kumar",true));
-		data.add(new Student("Rahul","Kumar",false));
-		data.add(new Student("Priya","Angel",true));
+	data.add(new Student("Hritik","Kumar",true));
+	data.add(new Student("Rahul","Kumar",false));
+	data.add(new Student("Priya","Angel",true));
 
 	pageContext.setAttribute("myStudents", data);
 %>
@@ -40,9 +40,7 @@
 						no soup for you!
 					</c:otherwise>
 
-				</c:choose>
-
-				
+				</c:choose>	
 			</td> 
 		</tr>
 		
