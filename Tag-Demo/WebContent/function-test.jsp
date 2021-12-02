@@ -17,7 +17,8 @@ Uppercase version of the string <b>${data }</b>: ${fn:toUpperCase(data) }
 
 <br><br>
 
-Does the string <b>${data }</b> start with <b>Hritik</b>?:${fn:startsWith(data,"Hritik")}
+Does the string <b>${data }</b> start with <b>Hello</b>?:${fn:startsWith(data,"Hello")}
+
 
 </body>
 
